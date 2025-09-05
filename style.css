@@ -1,0 +1,87 @@
+/* ESTILO GERAl */
+body {
+    font-family: helvetica;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* MENU */
+nav {
+    background: #472b06;
+    padding: 15px
+}
+/*LISTA NÃO-ORDENADA*/
+nav ul {
+    
+    text-align: center;
+}
+/*ITENS DA LISTA NÃO ORDENADA*/
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+/*LINKS DA LISTA NÃO ORDENADA*/
+nav ul li a {
+    text-decoration: none;
+    color:  #ffffee;
+
+;
+    font-weight: bold;
+}
+/*DECORAÇÃO MOUSE*/
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* CABEÇALHO */
+header {
+    font-size: large;
+    text-align: center;
+    padding: 50px;
+    background: #ffffee;
+    color:#472b06
+}
+
+/*PALAVRAS-CHAVE/CABEÇALHO*/
+header p {
+    margin-top: 10px;
+}
+
+/* APRESENTAÇÃO/MEIO/HOME */
+div {
+    padding: 100px;
+    text-align: center;
+    background-color: #6d4108;
+}
+/*APRESENTAÇÃO/MEIO*/
+.meio-home{
+color:#ffffee;
+
+}
+.quem-sou-meio{
+color:#ffffee;
+}
+.botao-contato{
+color: #6d4108;
+background-color: #ffffee;
+padding: 10px;
+text-decoration: none;
+border-radius: 5px;
+}
+.botao-contato:hover{
+    background-color: #ff9800;
+    color: #ffffee;
+}
+.contato-meio{
+    color: #ffffee;
+}
+
+
+/* RODAPÉ */
+footer {
+    background: #472b06;
+    color: #ff9800;
+    text-align: center;
+    padding: 15px;
+}
